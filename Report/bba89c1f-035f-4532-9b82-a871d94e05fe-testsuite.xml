@@ -1,0 +1,23 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1541155931979" stop="1541155931979">
+  <description>This is the tests collection phase. Failures are modules that failed to collect.</description>
+  <name>test_collection_phase</name>
+  <title>Collection phase</title>
+  <labels/>
+  <test-cases>
+    <test-case start="1541155931979" status="broken" stop="1541155931979">
+      <name>test_login</name>
+      <failure>
+        <message>failed</message>
+        <stack-trace>ImportError while importing test module 'E:\学习\软件测试\就业班\移动测试\项目day1\BaiNianAl\Scripts\test_login.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+Scripts\test_login.py:3: in &lt;module&gt;
+    from Base.read_yaml import ReadYAML
+E   ModuleNotFoundError: No module named 'Base'</stack-trace>
+      </failure>
+      <attachments/>
+      <labels/>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
